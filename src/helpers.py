@@ -1,4 +1,6 @@
 import time
+from pathlib import Path
+
 
 def execute(func, *args, show_result=True):
     t1 = time.perf_counter()
